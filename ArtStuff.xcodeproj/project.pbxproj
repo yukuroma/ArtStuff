@@ -20,6 +20,7 @@
 		CF22F0B917FF686100BDD487 /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F0B817FF686100BDD487 /* AAViewController.m */; };
 		CF22F0C117FF6C3C00BDD487 /* AAColorsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F0C017FF6C3C00BDD487 /* AAColorsVC.m */; };
 		CF22F0C717FF6DDA00BDD487 /* AAColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF22F0C617FF6DDA00BDD487 /* AAColorView.m */; };
+		E5D1F1D5180331F400BD5A79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D1F1D4180331F400BD5A79 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		CF22F0C017FF6C3C00BDD487 /* AAColorsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAColorsVC.m; sourceTree = "<group>"; };
 		CF22F0C517FF6DDA00BDD487 /* AAColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAColorView.h; sourceTree = "<group>"; };
 		CF22F0C617FF6DDA00BDD487 /* AAColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAColorView.m; sourceTree = "<group>"; };
+		E5D1F1D4180331F400BD5A79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D1F1D5180331F400BD5A79 /* QuartzCore.framework in Frameworks */,
 				CF22F09D17FF686100BDD487 /* UIKit.framework in Frameworks */,
 				CF22F09F17FF686100BDD487 /* Foundation.framework in Frameworks */,
 				CF22F0A117FF686100BDD487 /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +65,7 @@
 		CF22F09017FF686100BDD487 = {
 			isa = PBXGroup;
 			children = (
+				E5D1F1D4180331F400BD5A79 /* QuartzCore.framework */,
 				CF22F0A217FF686100BDD487 /* ArtStuff */,
 				CF22F09B17FF686100BDD487 /* Frameworks */,
 				CF22F09A17FF686100BDD487 /* Products */,
@@ -313,6 +317,7 @@
 				CF22F0BE17FF686100BDD487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

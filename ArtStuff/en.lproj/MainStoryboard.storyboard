@@ -63,6 +63,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Colors!" id="nV9-Zv-lYf"/>
+                    <connections>
+                        <outlet property="secondsColorView" destination="93H-eH-Frq" id="VDJ-x7-8n7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LVI-go-ogX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,20 +91,6 @@
             <point key="canvasLocation" x="131" y="-537"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="AAColorView" superclassName="UIView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AAColorView.h"/>
-        </class>
-        <class className="AAColorsVC" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AAColorsVC.h"/>
-        </class>
-        <class className="AAViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AAViewController.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -7,17 +7,27 @@
 //
 
 #import "AAViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface AAViewController ()
-
+@property (weak, nonatomic) IBOutlet UIView *ballView;
+@property (strong, nonatomic) CADisplayLink *displayLink;
 @end
 
 @implementation AAViewController
+
+-(void)tick:(CADisplayLink *)sender
+{
+
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(tick:)];
+    [self.displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
 }
 
 - (void)didReceiveMemoryWarning
